@@ -1,0 +1,15 @@
+
+
+.move-to-right {
+    opacity: .7;
+    animation: move-to-right 1s linear infinite alternate;
+}
+
+@keyframes move-to-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
