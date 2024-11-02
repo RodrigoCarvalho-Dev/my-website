@@ -1,9 +1,7 @@
 'use client';
 
 
-import { Menu, X } from 'lucide-react';
 import styles from './header.module.css';
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 

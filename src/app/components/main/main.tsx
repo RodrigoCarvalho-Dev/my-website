@@ -4,7 +4,6 @@
 import styles from '@/app/components/main/main.module.css';
 import SectionIntro from './sections/intro/sectionIntro';
 import { CircleArrowDown } from 'lucide-react';
-import SectionPrincipal from './sections/principal/sectionPrincipal';
 import Card from '../card/card';
 import { Suspense } from 'react';
 import Loading from '@/app/loading';

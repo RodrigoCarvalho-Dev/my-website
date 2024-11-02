@@ -7,7 +7,7 @@ import styles from './summary.module.css';
 export default function Summary() {
     return (
         <div className={`flex flex-col gap-5 ${styles.summary}`}>
-            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-5 gap-5 ' ${styles.react}`}>
+            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-5 gap-5 ${styles.react}`}>
                 <summary className='text-3xl font-semibold'>
                     React
                 </summary>
@@ -16,7 +16,7 @@ export default function Summary() {
                 </p>
             </details>
 
-            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-5 gap-5 ' ${styles.react}`}>
+            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-5 gap-5 ${styles.react}`}>
                 <summary className='text-3xl font-semibold'>
                     Vue
                 </summary>
@@ -25,7 +25,7 @@ export default function Summary() {
                 </p>
             </details>
 
-            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ' ${styles.react}`}>
+            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ${styles.react}`}>
                 <summary className='text-3xl font-semibold'>
                     Django
                 </summary>
@@ -34,7 +34,7 @@ export default function Summary() {
                 </p>
             </details>
 
-            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ' ${styles.react}`}>
+            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ${styles.react}`}>
                 <summary className='text-3xl font-semibold'>
                     Next
                 </summary>
@@ -43,7 +43,7 @@ export default function Summary() {
                 </p>
             </details>
 
-            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ' ${styles.react}`}>
+            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ${styles.react}`}>
                 <summary className='text-3xl font-semibold'>
                     Nest
                 </summary>
@@ -52,7 +52,7 @@ export default function Summary() {
                 </p>
             </details>
 
-            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ' ${styles.react}`}>
+            <details className={`flex w-[80vw] h-auto items-center bg-zinc-800 rounded-xl p-6 gap-5 ${styles.react}`}>
                 <summary className='text-3xl font-semibold'>
                     Node
                 </summary>
@@ -61,8 +61,6 @@ export default function Summary() {
                      Node é um ambiente de execução JavaScript do lado do servidor, que permite executar código JavaScript fora do navegador. Desenvolvido sobre o motor de execução V8, o mesmo usado pelo Google Chrome, Node.js permite construir aplicações de alta performance, escaláveis e de I/O intensivo ( muitas interações de entrada e saída ), como APIs, servidores web e sistemas de tempo real
                 </p>
             </details>
-
-
         </div>
     );
 }

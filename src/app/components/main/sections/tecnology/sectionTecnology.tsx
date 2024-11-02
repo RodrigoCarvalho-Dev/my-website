@@ -1,4 +1,3 @@
-import styles from '@/app/components/main/sections/tecnology/section.module.css';
 import  Image  from 'next/image';
 import Summary from '../../../elements/summary/summary';
 

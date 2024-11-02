@@ -1,15 +1,9 @@
 import styles from '@/app/components/main/sections/intro/intro.module.css';
-import Loading from '@/app/loading';
 import { CircleUserRound } from 'lucide-react';
 import { ChartNoAxesColumnIncreasing } from 'lucide-react'
 import { PanelsTopLeft } from 'lucide-react';
 import { Shield } from 'lucide-react';
-import Image from 'next/image';
-import { Suspense } from 'react';
 
-// imagem a ser trocada por outra mais bonita
-
-// buscar alternativa que quando eu inverto a tela ele faça functionar as setas para decoração
 
 
 
