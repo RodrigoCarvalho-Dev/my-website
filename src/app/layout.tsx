@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 
+
 const inter = ({
   variable : '--font-inter',
 });
@@ -19,6 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      </head>      
       <body
         className={`bg-zinc-900 text-zinc-50 ${inter.variable} font-sans`}
       >

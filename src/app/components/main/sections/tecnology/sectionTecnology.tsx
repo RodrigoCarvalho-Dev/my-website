@@ -1,5 +1,6 @@
 import styles from '@/app/components/main/sections/tecnology/section.module.css';
 import  Image  from 'next/image';
+import Summary from '../../../elements/summary/summary';
 
 export default function SectionTecnology() {
     return (
@@ -24,11 +25,9 @@ export default function SectionTecnology() {
                 <Image src={"/tecnology/Node-logo.svg"} width={50} height={50} alt='node-logo'/>
             </div>
 
-
-            <div className='my-32'>
-                <h1>Hello</h1>
-
-            </div>
+            <div className='h-[1px] w-5/6 bg-zinc-600'/>
+            
+                <Summary/>
         </section>
     );
 }

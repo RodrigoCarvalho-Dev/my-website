@@ -1,7 +1,25 @@
 import '@/app/css/global/loading.css'
+import Image from 'next/image';
 
 export default function Loading() {
     return (
-         <h1 className="skeleton-animation skeleton-text p-10 text-center"> Loading... </h1>
+        <>
+        <div className=''>
+            <div className={`loading flex items-center justify-center flex-col p-10 gap-5`}>            
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+                <div className="skeleton-animation skeleton-text p-5 text-center"/>
+            </div>
+        </div>
+        
+        
+        </>
+         
     );
 }
