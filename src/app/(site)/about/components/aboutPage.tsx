@@ -1,20 +1,21 @@
 'use client'
 
+import styles from './about.module.css'
 import Image from "next/image";
 import { Suspense } from "react";
 
 export default function AboutPersonalPage() {
 
     return (
-        <main>
-            <section className="flex flex-col items-center justify-center p-2 gap-5">
+        <main className='flex flex-col items-center bg-zinc-900'>
+            <section className={`flex flex-col items-center justify-center p-2 gap-5 ${styles.about}`}>
                 <Suspense fallback={<>Loading...</>}>
                 <Image src={'/images/anime-photo.svg'} className="rounded-full" width={120} height={120} alt={'whatsapp-icon'} />
                 <div className="h-[1px] w-[40%] bg-zinc-100"/>
                 </Suspense>
 
                 <main className="flex flex-col items-center justify-center gap-5 p-10">
-                    <h1 className="text-3xl font-bold">Rodrigo Carvalho</h1>
+                    <h1 className="text-3xl font-bold" >Rodrigo Carvalho</h1>
                     <p>Sou um programador pleno com uma sólida formação em desenvolvimento full stack, o que significa que possui habilidades tanto no front-end quanto no back-end, permitindo que trabalhe em todas as camadas de uma aplicação. Ao longo de minha carreira, eu consolidei conhecimentos em diversas tecnologias essenciais para a construção de sistemas completos e eficientes.                        
                     </p>
                     <div className="h-[1px] w-full bg-zinc-100"/>
