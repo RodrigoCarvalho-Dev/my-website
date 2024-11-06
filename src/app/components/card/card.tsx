@@ -10,7 +10,6 @@ import Whatsapp from '../elements/whatsapp';
 export default function Card() {
 
     interface User {
-        name: string;
         login: string;
         bio: string;
         avatar_url: string;
