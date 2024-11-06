@@ -1,6 +1,6 @@
 .card {
     width: 60%;
-    height: 100vh;
+    height: auto;
     background-color: #000;
     border-radius: 1rem;
     display: flex;
