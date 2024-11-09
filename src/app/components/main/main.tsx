@@ -6,7 +6,7 @@ import SectionIntro from './sections/intro/sectionIntro';
 import { CircleArrowDown } from 'lucide-react';
 import Card from '../card/card';
 import { Suspense } from 'react';
-import Loading from '@/app/loading';
+import Loading from '../../loading';
 import AboutHome from '../about/about';
 
 import React, { useRef } from 'react';

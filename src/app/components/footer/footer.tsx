@@ -1,9 +1,9 @@
-import styles from '@/app/components/footer/footer.module.css';
+import styles from './footer.module.css';
 import Image from 'next/image';
 import { Instagram , Linkedin } from 'lucide-react';
 import { MessagesSquare } from 'lucide-react';
 import { Smartphone } from 'lucide-react';
-import  Whatsapp  from '@/app/components/elements/whatsapp';
+import  Whatsapp  from '../elements/whatsapp';
 
 
 

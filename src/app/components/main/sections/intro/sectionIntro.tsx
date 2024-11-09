@@ -1,4 +1,4 @@
-import styles from '@/app/components/main/sections/intro/intro.module.css';
+import styles from './intro.module.css';
 import { CircleUserRound } from 'lucide-react';
 import { ChartNoAxesColumnIncreasing } from 'lucide-react'
 import { PanelsTopLeft } from 'lucide-react';

@@ -1,10 +1,10 @@
-import styles from '@/app/components/card/card.module.css';
+import styles from './card.module.css';
 import { Instagram, Linkedin, RectangleHorizontal, X } from 'lucide-react';
 import { Minus } from 'lucide-react';
 import { ShieldCheck } from 'lucide-react';
 import { Suspense, useEffect, useState } from 'react';
 import { Github } from 'lucide-react';
-import Loading from '@/app/loading';
+import Loading from '../../loading';
 import Whatsapp from '../elements/whatsapp';
 
 export default function Card() {
@@ -25,7 +25,7 @@ export default function Card() {
             setUser(data);    
         }
         fetchData();    
-    } , []);
+    } , [] );
     
     return (
         <div className={styles.card}>
