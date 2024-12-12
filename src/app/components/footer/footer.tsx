@@ -40,7 +40,9 @@ export default function Footer() {
                         <Smartphone width={20} height={20} />
                     </h1>  
                     <h3>telefone - (85) 997376799</h3>
-                    <h3 className='flex text-center flex-col gap-2'>email para contato<br/> rodrigosms103042r6@gmail.com 
+                    <h3 className='flex text-center flex-col gap-2'>email para contato<br/> 
+                    contato@rodrigocarvalhodev.com
+
                     </h3>   
             </div>
         </footer>

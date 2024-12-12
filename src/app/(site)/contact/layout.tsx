@@ -1,10 +1,12 @@
 import { Metadata } from "next";
-import "../../globals.css";
+import '../../globals.css'
+
 
 export const metadata: Metadata = {
-    title: "Rodrigo Carvalho - Sobre",
-    description: "My About Page",
-  };
+    title: "Rodrigo Carvalho - Contato",
+    description: "My Contato Page",
+}
+
 
 
 export default function RootLayoutAbout({
@@ -13,8 +15,6 @@ export default function RootLayoutAbout({
     return ( 
         <body>
         {children}
-        </body>
-          
+        </body>    
     );
-  }
-  
+}

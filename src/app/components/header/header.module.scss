@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.line {
+    display: block;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .nav {
+        display: none;
+        
+    }
+
+    .line {
+        display: none;
+    }
+}
