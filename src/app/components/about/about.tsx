@@ -22,6 +22,7 @@ export default function AboutHome() {
         badge={
           <Link href="/">
             <Logo className={`h-[20vh] w-[20vw] transform -rotate-12`}/>
+            <Badge/>
           </Link>
         }
         src={`/images/Java-background.png`}

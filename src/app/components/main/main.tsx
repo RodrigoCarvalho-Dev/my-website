@@ -1,7 +1,5 @@
 'use client';
 
-
-import styles from '@/app/components/main/main.module.css';
 import SectionIntro from './sections/intro/sectionIntro';
 import { CircleArrowDown } from 'lucide-react';
 import Card from '../card/card';
@@ -16,19 +14,19 @@ import SectionTecnology from './sections/tecnology/sectionTecnology';
 
 export default function Main() {
 
-    const mySectionTech : any = useRef( null );
+    const mySectionTech = useRef<HTMLDivElement | null>( null );
     const handleTech = () => {
-    mySectionTech.current.scrollIntoView({ behavior: 'smooth' });
+    mySectionTech.current?.scrollIntoView({ behavior: 'smooth' });
     };
 
-    const mySectionCard : any = useRef( null );
+    const mySectionCard = useRef<HTMLDivElement | null>( null );
     const handleCard = () => {
-    mySectionCard.current.scrollIntoView({ behavior: 'smooth' });
+    mySectionCard.current?.scrollIntoView({ behavior: 'smooth' });
     };
 
-    const mySectionAbout : any = useRef( null );
+    const mySectionAbout = useRef<HTMLDivElement | null>( null );
     const handleAbout = () => {
-        mySectionAbout.current.scrollIntoView({ behavior: 'smooth' });
+        mySectionAbout.current?.scrollIntoView({ behavior: 'smooth' });
     }
 
 

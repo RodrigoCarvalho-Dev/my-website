@@ -1,6 +1,5 @@
 'use client';
 
-import About from "../../components/about/about";
 import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
 import AboutPersonalPage from "./components/aboutPage";

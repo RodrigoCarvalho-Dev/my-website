@@ -1,11 +1,13 @@
 "use client";
-import React, {
+import {
   useEffect,
   useRef,
   useState,
   createContext,
   useContext,
+  RefObject,
 } from "react";
+import * as React from "react";
 import {
   IconArrowNarrowLeft,
   IconArrowNarrowRight,
@@ -17,7 +19,7 @@ import Image, { ImageProps } from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
 interface CarouselProps {
-  items: JSX.Element[];
+  items: React.JSX.Element[];
   initialScroll?: number;
 }
 
@@ -163,8 +165,8 @@ export const Card = ({
   layout?: boolean;
 }) => {
   const [open, setOpen] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const { onCardClose, currentIndex } = useContext(CarouselContext);
+  const containerRef : RefObject<HTMLDivElement | null>  = useRef<HTMLDivElement | null>(null);
+  const { onCardClose } = useContext(CarouselContext);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {

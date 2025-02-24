@@ -2,7 +2,7 @@
 
 
 import './menu-mobile.scss';
-import { useEffect, useRef, useState } from "react";
+import { RefObject, useEffect, useRef, useState } from "react";
 import {  House, Menu, Smartphone, User, X } from 'lucide-react';
 import { Line } from '../header/style';
 import Image from 'next/image';
@@ -11,15 +11,19 @@ import Link from 'next/link';
 export function MenuMobile() {
 
     const [ open , setOpen ] = useState(false as boolean);
-    const menuRef : any = useRef(null);
+    const menuRef : RefObject<HTMLDivElement | null> = useRef<HTMLDivElement>(null) ;
 
     const toggleMenu = () => {
         setOpen(!open);
     }
 
-    const handleClickOutside = (event : any) => {
-        if (menuRef.current && !menuRef.current.contains(event.target)) {
-            setOpen(!open);
+    const handleClickOutside = (event : Event) => {
+        if (menuRef.current) {
+            // Verifique se event.target é um Node e não é null
+            const target = event.target as Node; // Assegura que target é tratado como Node
+            if (!menuRef.current.contains(target)) {
+                setOpen(false); // Ou qualquer outra lógica que você deseje
+            }
     }
     }
 
