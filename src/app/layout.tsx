@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Rodrigo Carvalho - Home",
   description: "Uma aplicação de meu website",
+  icons: "/icon.png"
 };
 
 export default function RootLayout({
