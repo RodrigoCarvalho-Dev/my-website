@@ -1,0 +1,63 @@
+.background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hand {
+    z-index: 2;
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.programming_icon {
+    z-index: 2;
+    position: absolute;
+    width: 20rem;
+    height: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.text {
+    flex-direction: column;
+}
+
+
+.certifications {
+    flex-direction: column;
+}
+   .section_intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_H1440px {
+    display: none;
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .image {
+        display: none;
+    }
+
+    .image_H1440px {
+        display: block;
+        margin-left: 10rem;
+    }
+
+    
+    
+}

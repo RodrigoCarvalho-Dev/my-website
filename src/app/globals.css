@@ -1,10 +1,14 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  color: #fff;
   --foreground: #171717;
+  --font-inter: 'Inter', sans-serif;
+    overflow-x: hidden;
+   
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +19,27 @@
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
