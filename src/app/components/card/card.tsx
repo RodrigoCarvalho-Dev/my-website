@@ -6,6 +6,7 @@ import { Suspense, useEffect, useState } from 'react';
 import { Github } from 'lucide-react';
 import Loading from '../../loading';
 import Whatsapp from '../elements/whatsapp';
+import Image from 'next/image';
 
 export default function Card() {
 
@@ -77,7 +78,7 @@ export default function Card() {
                                         </a>
             </footer>
 
-            <span>feito com ♥</span>
+            <span className='flex flex-row gap-1 items-center'>feito com <Image src={`tecnology/Tailwind-logo.svg`} width={30} height={30} alt='tailwind_logo'/></span>
 
             </main>
 
