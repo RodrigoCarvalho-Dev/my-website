@@ -46,10 +46,10 @@ export function MenuMobile() {
 
         <nav className='menu' ref={menuRef}>
             <button
-                className='menu-button'
+                className='menu-button '
                 onClick={toggleMenu}
             >
-            <Menu width={45} height={45}/>
+            <Menu className='hover:bg-zinc-50/40 transform transition-all hover:scale-75 rounded-full ' width={45} height={45}/>
             </button>
 
             <div className={`menu-items ${open ? 'open' : ''} bg-zinc-950 text-white `}>
