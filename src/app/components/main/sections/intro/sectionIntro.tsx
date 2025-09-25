@@ -1,6 +1,4 @@
 import styles from './intro.module.css';
-import { CircleUserRound } from 'lucide-react';
-import { ChartNoAxesColumnIncreasing } from 'lucide-react'
 import { Code } from 'lucide-react';
 import { GraduationCap } from 'lucide-react';
 import { CgWebsite } from 'react-icons/cg';

@@ -3,7 +3,7 @@
 
 import './menu-mobile.scss';
 import { RefObject, useEffect, useRef, useState } from "react";
-import {  House, Menu, Smartphone, User, X } from 'lucide-react';
+import {  Menu, Smartphone, X } from 'lucide-react';
 import { Line } from '../header/style';
 import Image from 'next/image';
 import Link from 'next/link';
