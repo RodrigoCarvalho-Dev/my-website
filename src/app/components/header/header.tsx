@@ -18,10 +18,10 @@ export default function Header() {
             />
             
             
-            <Line className={`bg-zinc-50`}/>
+            <Line className={`bg-zinc-50 hidden max-sm:block`}/>
 
 
-            <nav 
+            {/* <nav 
                 className={`flex gap-5 items-center ${styles.nav}`}
             >
                 <a className='font-bold hover:opacity-80 transition-all'
@@ -30,7 +30,7 @@ export default function Header() {
                  href="/about" target='_self' rel='noopener noreferrer'>Sobre</a>
                 <a className='font-bold hover:opacity-80 transition-all' 
                 href="/contact" target='_self' rel='noopener noreferrer'>Contato</a>
-            </nav>
+            </nav> */}
 
 
            <MenuMobile/>

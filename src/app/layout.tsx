@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   icons: "/icon.png"
 };
 
+  
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,7 +31,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <AuroraBackground className="absolute inset-0 -z-10 pointer-events-none bg-[#0a0a0a] overflow-hidden" >
+
+<AuroraBackground className="absolute inset-0 -z-10 pointer-events-none bg-[#0a0a0a] overflow-hidden" >
                   <>
                   </>
         </AuroraBackground>

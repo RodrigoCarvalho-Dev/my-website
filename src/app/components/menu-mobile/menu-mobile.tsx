@@ -7,6 +7,7 @@ import {  House, Menu, Smartphone, User, X } from 'lucide-react';
 import { Line } from '../header/style';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaTelegram, FaWhatsapp } from 'react-icons/fa';
 
 export function MenuMobile() {
 
@@ -59,22 +60,26 @@ export function MenuMobile() {
                 >
                     <X width={25} height={25}/>
                 </button>
-                <a href="/home">
-                    <House width={25} height={25}/>
-                    <p>Home</p>
-                </a>
-                <Line className='bg-zinc-50'/>
                 
-                <a href="/about">
-                <User width={25} height={25}/>
-                <p>Sobre</p>
-                </a>
-                <Line className='bg-zinc-50'/>
+                
                 
                 <a href="/contact">
                 <Smartphone width={25} height={25}/>
-                <p>Contato</p>
+                <p>Contatos</p>
                 </a>
+
+                <Line className='bg-zinc-50'/>
+
+                <a className='flex bg-zinc-800 m-5 w-full rounded-lg p-2 transition-all hover:bg-zinc-700' href="https://wa.me/+5585997376799">
+                <FaWhatsapp className='h-6 w-6'/>
+                <p>Whatsapp</p>
+                </a>
+
+                <a className='flex bg-zinc-800 m-5 w-full rounded-lg p-2 transition-all hover:bg-zinc-700' href="https://t.me/+5585997376799">
+                <FaTelegram className='h-6 w-6'/>
+                <p>Telegram</p>
+                </a>
+
                 <div className='bg-zinc-900 p-3 flex flex-row gap-2 rounded-lg items-center'>
                 <p>Feito por Rodrigo Carvalho</p>
                 <Link href={`https://github.com/RodrigoCarvalho-Dev`}>
