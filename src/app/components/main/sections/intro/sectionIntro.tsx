@@ -47,10 +47,10 @@ export default function SectionIntro() {
 
         <img  src={'/images/hand.png'} className={`${styles.image_H1440px}`} alt={'hand'}/>
 
-        <button className='flex flex-row items-center gap-4 bg-zinc-800 rounded-lg px-4 py-2 text-2xl hover:bg-zinc-700'>
+        {/* <button className='flex flex-row items-center gap-4 bg-zinc-800 rounded-lg px-4 py-2 text-2xl hover:bg-zinc-700'>
         <span className='font-bold'>Portfólio</span>
         <CgWebsite className='h-5 w-5'/>
-    </button>
+    </button> */}
 
     </section>
 
