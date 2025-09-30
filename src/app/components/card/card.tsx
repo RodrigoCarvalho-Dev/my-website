@@ -30,7 +30,7 @@ export default function Card() {
     
     return (
         <div className={styles.card}>
-            <header className={`flex justify-between p-5 w-full bg-zinc-800 ${styles.header}`}>
+            <header className={`flex justify-between p-5 gap-2 w-full bg-zinc-800 ${styles.header}`}>
                 <div className='flex gap-3 items-center'>
                     <X className='text-red-300' width={20} height={20}/>
                     <RectangleHorizontal width={20} height={20}/>
