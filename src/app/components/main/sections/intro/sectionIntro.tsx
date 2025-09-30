@@ -14,7 +14,7 @@ export default function SectionIntro() {
         <div className='flex flex-row max-md:flex-col  gap-5 '>
             <div className={`flex flex-row p-0 gap-0 w-full items-center justify-between ${styles.text}`}>
                 <h1 className='flex flex-col font-bold  gap-3 items-center'>
-                <img className='h-auto w-[60%] max-md:w-15 max-md:h-15 rounded-full' src={"/images/my-photo.png"} alt='my_photo'/>
+                <img className='h-auto w-[40%] max-md:w-15 max-md:h-15 rounded-full' src={"/images/my-photo.png"} alt='my_photo'/>
                 <p className='flex items-center font-bold text-3xl text-center'>Olá 👋</p> <p className='font-light text-2xl'>Me chamo, <span className='font-bold'>
                 Rodrigo Carvalho</span></p>
                 </h1>
